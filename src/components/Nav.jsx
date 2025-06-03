@@ -53,7 +53,7 @@ export default function Navigation() {
 
         {/* Desktop Book Session Button */}
         <div className="hidden md:block">
-          <Link>
+          <Link to="/booking">
             <button className="bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-2 rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105">
               Book Session
             </button>
